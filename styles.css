@@ -1,0 +1,73 @@
+.base {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+.main {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  margin-left: 200px;
+}
+
+.header {
+  background-color: rgb(179, 255, 0);
+  height: 20px;
+  width: calc (100%-300px);
+}
+
+.menu-wrap {
+  position: fixed;
+  height: 50vh;
+  background-color: rgb(193, 193, 224);
+}
+
+.list, .title-menu{
+  list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.banner {
+  display: block;
+  min-width: 250px;
+  border: solid rgb(24, 22, 22) 1px;
+  position: right 0;
+  margin: 10px;
+}
+
+.content {
+  /* width: 300px; */
+  position: 300px;
+  height: 50vh;
+  text-align: justify;
+}
+.firstHeading {
+  overflow: visible;
+}
+.wiki-logo{
+  margin: 0 auto;
+  padding: 15px;
+}
+
+li {
+  list-style: none; /* Убираем исходные маркеры */ 
+}
+.table {
+padding-top: 20px
+}
+.bitcoin-logo {
+  padding-top: 20px;
+}
+hr {
+  border: none; /* Убираем границу */
+  background-color: orange; /* Цвет линии */
+  color: orange; /* Цвет линии для IE6-7 */
+  height: 2px; /* Толщина линии */
+}
+.foto {
+float: right;
+padding: 8px;
+}
