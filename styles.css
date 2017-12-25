@@ -1,26 +1,36 @@
+body{
+  margin: 0px;
+/* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL36zRVIr50SRMXMhUFa4NLVcZplO7hoYAIE4h-7tLlOIjqRvE") no-repeat center; */
+}
+
+header {
+  background-color: orange;
+  background: linear-gradient(to top, white, orange);
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  margin-left: 180px;
+  padding: 10px;
+}
 .base {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: flex-start;
+  
 }
 .main {
   display: flex;
   flex-direction: row; 
   justify-content: flex-start;
   margin-left: 200px;
+  margin-top: 30px;
+  padding-top: 10px;
 }
-
-.header {
-  background-color: rgb(179, 255, 0);
-  height: 20px;
-  width: calc (100%-300px);
-}
-
 .menu-wrap {
   position: fixed;
-  height: 50vh;
-  background-color: rgb(193, 193, 224);
+  height: 100vh;
+  background: linear-gradient(to top, white, orange );
 }
 
 .list, .title-menu{
@@ -33,19 +43,19 @@
 .banner {
   display: block;
   min-width: 250px;
-  border: solid rgb(24, 22, 22) 1px;
   position: right 0;
-  margin: 10px;
+  margin: 20px;
 }
 
 .content {
-  /* width: 300px; */
   position: 300px;
   height: 50vh;
   text-align: justify;
+  padding-top: 20px;
 }
 .firstHeading {
-  overflow: visible;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
 }
 .wiki-logo{
   margin: 0 auto;
@@ -53,13 +63,24 @@
 }
 
 li {
-  list-style: none; /* Убираем исходные маркеры */ 
+  list-style-type: none; /* Убираем исходные маркеры */ 
+  font-size: 1.3em;
+  padding-top: 5px;
+}
+.info {
+  border: solid rgb(24, 22, 22) 1px;
 }
 .table {
-padding-top: 20px
+padding-top: 20px;
+}
+.title-menu {
+  font-size: 1.3em;
+  text-decoration: underline;
 }
 .bitcoin-logo {
   padding-top: 20px;
+  margin: 5px;
+  width: 95%;
 }
 hr {
   border: none; /* Убираем границу */
@@ -71,3 +92,29 @@ hr {
 float: right;
 padding: 8px;
 }
+.foto1 {
+  float: left;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  }
+li>a{
+  text-decoration: none;
+  color: black;
+}
+p, a>p {
+  font-size: 1.2em;
+}
+.title-news {
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+  font-weight: bold; 
+}
+h3::before {
+	display: block;
+	content: "";
+	height: 55px;
+	margin: -55px 0 0;
+}
+
+  
